@@ -6,15 +6,15 @@
 var handlers = {
   convert: function() {
 
-    var arrayInput = document.getElementById('arrayInput');
-    console.log(arrayInput.value);
-    //var newObject = {};
+    var arrayInput = document.getElementById('arrayInput').value;
     
-    //for (i=0; i<arrayInput.length; i++) {
-      // newObject[arrayInput[i[0]]] = arrayInput[i[1]];
-      
-    //};
+    var newObject = {};
     
+    arrayInput.forEach (function(x) {
+      newObject[x[0]] = x[1];
+    });
+    
+    console.log(newObject);
     //var outputDiv = document.getElementById('output');
     //outputDiv.textContent = newObject;
   }

@@ -3,8 +3,8 @@
 // Sample output: {{name: 'James Harden', points: 27, assists: 13, rebounds: 10}}
 
 var createObject = {
-  newObject: {},
   convert: function(arr) {
+    var newObject: {},
     Array.from(arr).forEach(function(x) {
       this.newObject[x[0]] = x[1];
     });

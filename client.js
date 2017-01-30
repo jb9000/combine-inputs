@@ -4,7 +4,7 @@
 
 var createObject = {
   convert: function(arr) {
-    var newObject: {},
+    var newObject = {};
     Array.from(arr).forEach(function(x) {
       this.newObject[x[0]] = x[1];
     });

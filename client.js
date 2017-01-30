@@ -10,8 +10,8 @@ var handlers = {
     var newObject = {};
     
     for (i=0; i<arrayInput.length; i++) {
-      newObject[x[0]] = x[1];
-    });
+      newObject[array[i[0]]] = array[i[1]];
+    };
     
     var outputDiv = document.getElementById('output');
     outputDiv.textContent = newObject;

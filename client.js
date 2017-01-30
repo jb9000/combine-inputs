@@ -11,6 +11,7 @@ var handlers = {
     
     for (i=0; i<arrayInput.length; i++) {
       newObject[array[i[0]]] = array[i[1]];
+      console.log(newObject);
     };
     
     var outputDiv = document.getElementById('output');

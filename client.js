@@ -16,7 +16,7 @@ var createObject = {
 var handlers = {
   convert: function() {
     var arrayInput = document.getElementById('arrayInput');
-    createObject.convert(arrayInput);
+    createObject.convert(arrayInput.value);
     view.displayObject;
   }
 };

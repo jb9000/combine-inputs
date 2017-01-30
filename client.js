@@ -5,7 +5,7 @@
 var createObject = {
   newObject: {},
   convert: function(arr) {
-    arr.forEach(function(x) {
+    Array.from(arr).forEach(function(x) {
       newObject[x[0]] = x[1];
     });
   }

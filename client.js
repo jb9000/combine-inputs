@@ -7,12 +7,13 @@ var handlers = {
   convert: function() {
 
     var arrayInput = document.getElementById('arrayInput');
-    var newObject = {};
+    console.log(arrayInput);
+    //var newObject = {};
     
-    for (i=0; i<arrayInput.length; i++) {
+    //for (i=0; i<arrayInput.length; i++) {
       // newObject[arrayInput[i[0]]] = arrayInput[i[1]];
-      console.log(arrayInput);
-    };
+      
+    //};
     
     //var outputDiv = document.getElementById('output');
     //outputDiv.textContent = newObject;

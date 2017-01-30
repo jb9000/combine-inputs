@@ -10,7 +10,7 @@ var handlers = {
     
     var newObject = {};
     
-    Arra.from(arrayInput).forEach (function(x) {
+    Array.from(arrayInput).forEach (function(x) {
       newObject[x[0]] = x[1];
     });
     

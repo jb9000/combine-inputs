@@ -7,7 +7,7 @@ var handlers = {
   convert: function() {
 
     var arrayInput = document.getElementById('arrayInput');
-    console.log(arrayInput);
+    console.log(arrayInput.value);
     //var newObject = {};
     
     //for (i=0; i<arrayInput.length; i++) {

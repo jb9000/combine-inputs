@@ -1,4 +1,4 @@
-// Sample input: [[name: James Harden],[points: 27],[assists: 13],[rebounds: 10]]
+// Sample input: [[name, James Harden],[points, 27],[assists, 13],[rebounds, 10]]
 // Sample output: {{name: 'James Harden', points: 27, assists: 13, rebounds: 10}}
 
 // This object runs a function when the HTML Convert button is clicked
@@ -11,6 +11,7 @@ var handlers = {
     var newObject = {};
     
     arrayInput.forEach(function(x) {
+      this.newObject[x[0]] = {}
       this.newObject[x[0]] = x[1];
     });
     

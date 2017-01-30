@@ -10,7 +10,7 @@ var handlers = {
     var newObject = {};
     
     for (i=0; i<arrayInput.length; i++) {
-      newObject[array[i[0]]] = array[i[1]];
+      newObject[arrayInput[i[0]]] = arrayInput[i[1]];
       console.log(newObject);
     };
     

@@ -10,11 +10,11 @@ var handlers = {
     var newObject = {};
     
     for (i=0; i<arrayInput.length; i++) {
-      newObject[arrayInput[i[0]]] = arrayInput[i[1]];
-      console.log(newObject);
+      // newObject[arrayInput[i[0]]] = arrayInput[i[1]];
+      console.log(arrayInput);
     };
     
-    var outputDiv = document.getElementById('output');
-    outputDiv.textContent = newObject;
+    //var outputDiv = document.getElementById('output');
+    //outputDiv.textContent = newObject;
   }
 };

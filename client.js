@@ -6,16 +6,22 @@
 var handlers = {
   convert: function() {
 
-    var arrayInput = document.getElementById('arrayInput').value;
-    
-    var newObject = {};
-    
-    arrayInput.forEach (function(x) {
-      newObject[x[0]] = x[1];
+    var nameInput = document.getElementById('nameInput').value;
+    var pointsInput = document.getElementById('pointsInput').value;
+    var assistsInput = document.getElementById('assistsInput').value;
+    var reboundsInput = document.getElementById('reboundsInput').value;
+    var teamArray = [];
+        
+    var playerObject = {};
+    playerObject[name] = nameInput;
+    playerObject[points] = pointsInput;
+    playerObject[assists] = assistsInput;
+    playerObject[rebounds] = reboundsInput;
+    teamArray.push(playerObject);
     });
     
-    console.log(newObject);
-    //var outputDiv = document.getElementById('output');
-    //outputDiv.textContent = newObject;
+    console.log(teamArray);
+    var outputDiv = document.getElementById('output');
+    outputDiv.textContent = teamArray;
   }
 };

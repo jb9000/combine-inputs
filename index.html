@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Convert an Array to an Object</title>
+    <title>Combine inputs into an Array, Object, and String</title>
   </head>
   
   <body>
     <header>
       <h1>
-        Array to Object
+        Combine inputs into an Array, Object, and String
       </h1>
     </header>
     
     <div>
-      Sample data: [[name, James Harden],[points, 27],[assists, 13],[rebounds, 10]]
-    </div>
-    <div>
       Name: <input type="text" id="nameInput"><br>
-      Points: <input type="text" id="pointsInput"><br>
-      Assists: <input type="text" id="assistsInput"><br>
-      Rebounds: <input type="text" id="reboundsInput"><br>
+      Points: <input type="number" id="pointsInput"><br>
+      Assists: <input type="number" id="assistsInput"><br>
+      Rebounds: <input type="number" id="reboundsInput"><br>
       <button onclick="handlers.convert()">Convert</button>
     </div>  
     
-    <div id='output'>
+    <div id="output1">
+    </div>
+    
+    <div id="output2">
+    </div>
+    
+    <div id="output3">
     </div>
    
-    <script src="https://jeffbautista.github.io/arrays-to-objects/client.js"></script>
+    <script src="https://jeffbautista.github.io/combine-inputs/client.js"></script>
   </body>
 </html>

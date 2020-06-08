@@ -1,2 +1,2 @@
 # arrays-to-objects
-Turn Arrays into Objects
+A Javascript app that turns arrays (via a JSON file) into an Object.
